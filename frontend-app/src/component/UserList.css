@@ -1,0 +1,73 @@
+.user-list-container {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ffffff;
+}
+
+.user-list-heading {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.user-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  border: 1px solid #d3c5c576;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+.user-name > p {
+  color: #1c26b8;
+}
+.user-name {
+  cursor: pointer;
+  color: #000000;
+}
+
+.user-email {
+  color: #3c3131d3;
+}
+
+.button-container {
+  margin-left: auto;
+}
+
+.button-container button {
+  margin-left: 10px;
+  background-color: tomato;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+  padding: 2px 11px;
+  border-radius: 100px;
+}
+
+.button-container button:hover {
+  background-color: #0e4565;
+}
+
+.user-list-heading {
+  padding: 0px;
+  background-color: #0e4565;
+  color: #fff;
+  margin-top: 10px;
+}
+.pagination-controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.pagination-controls button {
+  margin: 0 10px;
+}
+
+.pagination-controls span {
+  font-size: 1.2em;
+  margin: 0 10px;
+}
+
